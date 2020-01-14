@@ -1,0 +1,156 @@
+h1 {
+    font-family: Arial;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 50%;
+    letter-spacing: -2px;
+}
+h2 {
+    font-family: Arial;
+    font-size: 40px;
+    margin: 0;
+    padding-top: 30%;
+    letter-spacing: -2px;
+}
+.maincontainer {
+    margin: auto;
+    width: 600px;
+    height: 800px;
+    border: 1px solid black;
+    display: grid;
+    grid-template-columns: repeat(26, 1fr);
+    grid-template-rows: repeat(36, 1fr);
+}
+.box1 {
+  grid-column-start: 1;
+  grid-column-end: 27;
+  grid-row-start: 1;
+  grid-row-end: 15;
+  background-color: #CB4832;
+}
+.box2 {
+  grid-column-start: 1;
+  grid-column-end: 27;
+  grid-row-start: 15;
+  grid-row-end: 26;
+  background-color: #BC3D39;
+}
+.box3 {
+  grid-column-start: 1;
+  grid-column-end: 27;
+  grid-row-start: 26;
+  grid-row-end: 37;
+  background-color: #9A333C;
+}
+.leftcontainer {
+    display: grid;
+    grid-template-rows: (311.06px, 244.41px, 244.41px);
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 37;
+    text-align: right;
+    line-height: 1;
+}
+.rightcontainer {
+    display: grid;
+    grid-template-rows: (311.06px, 244.41px, 244.41px);
+    grid-column-start: 14;
+    grid-column-end: 27;
+    grid-row-start: 1;
+    grid-row-end: 37;
+    line-height: 1;
+}
+/*left1*/
+.left1 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 311.06px;
+    color: whitesmoke;
+}
+/*left2*/
+.left2 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 244.41px;
+    font-size: 10px;
+}
+.Musi {
+    font-family: Calibri;
+    font-weight: 700;
+    padding-top: 60%;
+    font-size: 11px;
+    line-height: 11px;
+}
+/*left3*/
+.left3 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 244.41px;
+}
+.der {
+    margin: 0;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    padding-top: 10%;
+}
+.Musikalis {
+    font-size: 11px;
+    margin: 0;
+    padding-top: 24%;
+    font-family: Calibri;
+    font-weight: 700;
+    line-height: 11px;
+}
+/*right1*/
+.right1 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 311.06px
+}
+/*right2*/
+.right2 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 244.41px
+}
+.pale {
+    margin: 0;
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    padding-top: 22%;
+}
+.mus {
+    line-height: 11px;
+    margin: 0;
+    font-family: Calibri;
+    font-weight: 700;
+    padding-top: 3%;
+    font-size: 11px;
+}
+/*right3*/
+.right3 {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    height: 244.41px
+}
+.wild {
+    font-family: Arial;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin: 0;
+    padding-top: 9%;
+}
+.kom {
+    margin: 0;
+    font-size: 10px;
+    font-family: Calibri;
+    font-weight: 700;
+    line-height: 10px;
+    padding-top: 5%;
+}
